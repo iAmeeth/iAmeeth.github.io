@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ameeth Kanawaday — Senior Member of Technical Staff</title>
+  <meta name="description" content="Personal website of Ameeth Kanawaday — Senior MTS at Oracle, USC CS grad. Portfolio, research, and blog.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; font-src https://fonts.gstatic.com; img-src 'self' data:; script-src 'self';">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta name="referrer" content="no-referrer-when-downgrade">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ─── NAV ─── -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#hero" class="nav__logo">Ameeth Kanawaday</a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ─── HERO ─── -->
+  <header class="hero" id="hero">
+    <div class="container">
+      <p class="hero__greeting fade-in">Hi, I'm</p>
+      <h1 class="hero__name fade-in delay-1">Ameeth Kanawaday</h1>
+      <p class="hero__title fade-in delay-2">Senior Member of Technical Staff @ Oracle</p>
+      <p class="hero__tagline fade-in delay-3">I build scalable cloud systems, explore machine learning, and write about technology along the way.</p>
+      <div class="hero__cta fade-in delay-4">
+        <a href="#projects" class="btn btn--primary">View My Work</a>
+        <a href="#contact" class="btn btn--outline">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero__scroll-hint fade-in delay-4">
+      <span>scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </header>
+
+  <!-- ─── ABOUT ─── -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section__heading"><span class="section__number">01.</span> About Me</h2>
+      <div class="about__grid">
+        <div class="about__text">
+          <p>I'm a software engineer at Oracle with over eight years of experience building cloud infrastructure and platform services. I hold a Master's in Computer Science from the University of Southern California, where my research focused on machine learning, computer vision, and predictive analytics.</p>
+          <p>My work sits at the intersection of large-scale distributed systems and applied ML. I've published research on predictive maintenance using IoT sensor data and classification of abstract images. When I'm not shipping code, I enjoy experimenting with new tools and writing about what I learn.</p>
+        </div>
+        <div class="about__skills">
+          <h3>Technologies I work with</h3>
+          <ul class="skills-list">
+            <li>Java / Python</li>
+            <li>Machine Learning</li>
+            <li>Oracle Cloud (OCI)</li>
+            <li>Distributed Systems</li>
+            <li>Time-Series Analysis</li>
+            <li>Computer Vision</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── PROJECTS ─── -->
+  <section class="section section--alt" id="projects">
+    <div class="container">
+      <h2 class="section__heading"><span class="section__number">02.</span> Projects</h2>
+      <div class="projects__grid">
+
+        <article class="project-card">
+          <div class="project-card__header">
+            <svg class="project-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"/></svg>
+            <div class="project-card__links">
+              <a href="https://github.com/iAmeeth/Predictive-Maintenance" target="_blank" rel="noopener noreferrer" aria-label="GitHub repo for Predictive Maintenance">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-card__title">Predictive Maintenance</h3>
+          <p class="project-card__desc">Machine learning pipeline using ARIMA forecasting on IoT sensor data from industrial machines to predict failures and quality defects. Published at IEEE ICSESS 2017.</p>
+          <ul class="project-card__tags">
+            <li>Python</li><li>ARIMA</li><li>IoT</li><li>Jupyter</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__header">
+            <svg class="project-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"/></svg>
+            <div class="project-card__links">
+              <a href="https://github.com/iAmeeth/Vibration-Analysis" target="_blank" rel="noopener noreferrer" aria-label="GitHub repo for Vibration Analysis">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-card__title">Vibration Analysis</h3>
+          <p class="project-card__desc">Toolkit for getting started with machine vibration analysis. Explores signal processing techniques for detecting anomalies in industrial equipment.</p>
+          <ul class="project-card__tags">
+            <li>Python</li><li>Jupyter</li><li>Signal Processing</li><li>Data Science</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__header">
+            <svg class="project-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"/></svg>
+            <div class="project-card__links">
+              <a href="https://github.com/iAmeeth/Time-Series-Data" target="_blank" rel="noopener noreferrer" aria-label="GitHub repo for Time Series Data">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-card__title">Time-Series Data Analysis</h3>
+          <p class="project-card__desc">Exploration of time-series forecasting techniques applied to sensor and operational data. Covers data preprocessing, feature engineering, and model evaluation.</p>
+          <ul class="project-card__tags">
+            <li>Python</li><li>Jupyter</li><li>Forecasting</li><li>Pandas</li>
+          </ul>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── EXPERIENCE ─── -->
+  <section class="section" id="experience">
+    <div class="container">
+      <h2 class="section__heading"><span class="section__number">03.</span> Experience</h2>
+      <div class="timeline">
+
+        <div class="timeline__item">
+          <div class="timeline__marker"></div>
+          <div class="timeline__content">
+            <div class="timeline__header">
+              <h3>Senior Member of Technical Staff</h3>
+              <span class="timeline__company">Oracle</span>
+            </div>
+            <span class="timeline__date">2018 — Present</span>
+            <p>Building and scaling cloud infrastructure and platform services at Oracle. Working across distributed systems, service reliability, and cloud-native architecture over a tenure spanning 100+ months.</p>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__marker"></div>
+          <div class="timeline__content">
+            <div class="timeline__header">
+              <h3>M.S. Computer Science</h3>
+              <span class="timeline__company">University of Southern California</span>
+            </div>
+            <span class="timeline__date">2017 — 2018</span>
+            <p>Graduate studies in computer science with focus on machine learning, artificial intelligence, and computer vision. Research on classification of abstract images and predictive analytics for industrial systems.</p>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__marker"></div>
+          <div class="timeline__content">
+            <div class="timeline__header">
+              <h3>Intern — IoT &amp; Predictive Analytics</h3>
+              <span class="timeline__company">Altizon Systems</span>
+            </div>
+            <span class="timeline__date">2017</span>
+            <p>Developed a predictive quality use case using machine learning on IoT sensor data from industrial slitting machines. Co-authored a paper published at the IEEE ICSESS 2017 conference.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── BLOG ─── -->
+  <section class="section section--alt" id="blog">
+    <div class="container">
+      <h2 class="section__heading"><span class="section__number">04.</span> Blog</h2>
+      <div class="blog__grid">
+
+        <a href="blog/google-jitro-vs-claude.html" class="blog-card">
+          <span class="blog-card__date">April 21, 2026</span>
+          <h3 class="blog-card__title">Google Jitro vs Claude — A Quick Comparison</h3>
+          <p class="blog-card__excerpt">A concise look at how Google's Jitro and Anthropic's Claude differ in approach, strengths, and philosophy.</p>
+          <span class="blog-card__read">Read more &rarr;</span>
+        </a>
+
+      </div>
+      <div class="blog__more">
+        <a href="blog/" class="btn btn--outline">All Posts</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CONTACT ─── -->
+  <section class="section" id="contact">
+    <div class="container container--narrow">
+      <h2 class="section__heading"><span class="section__number">05.</span> Get In Touch</h2>
+      <p class="contact__text">I'm always open to interesting conversations, collaboration opportunities, or just a friendly hello. Feel free to reach out.</p>
+      <a href="mailto:ameeth.kanawaday@gmail.com" class="btn btn--primary btn--lg">Say Hello</a>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__links">
+        <a href="https://github.com/iAmeeth" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/ameeth-kanawaday/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+        <a href="mailto:ameeth.kanawaday@gmail.com" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="22" height="22"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+        </a>
+      </div>
+      <p class="footer__copy">Designed &amp; built by Ameeth Kanawaday</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
